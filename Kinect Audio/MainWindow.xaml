@@ -1,0 +1,30 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:k="http://schemas.microsoft.com/kinect/2013"
+        x:Class="Kinect_audio.MainWindow"
+        KeyDown="Global_KeyDown"
+        Title="MainWindow" Height="600" Width="655" Loaded="start">
+
+    <Grid>
+
+
+        <Grid Margin="0,0,0,45">
+            <Image x:Name="slika" HorizontalAlignment="Left" Height="480" Margin="0,10,0,0" VerticalAlignment="Top" Width="640"/>
+            <Label x:Name="testLabel" Content="Pritiskom na SPACE ulaziš u mode za promjenu mjesta kvadrata" HorizontalAlignment="Center" Height="51" VerticalAlignment="Bottom" Width="422" BorderThickness="10" FontSize="14" Margin="0,0,0,-20" HorizontalContentAlignment="Center"/>
+            <Label x:Name="labelMusic" Content="Tipkama J,K i L pališ pozadinsku muziku" HorizontalAlignment="Center" Height="51" VerticalAlignment="Bottom" Width="422" BorderThickness="10" FontSize="14" Margin="0,0,0,-45" HorizontalContentAlignment="Center"/>
+            <MediaElement x:Name="one" HorizontalAlignment="Left" Height="51" VerticalAlignment="Top" Width="61" Margin="122,508,0,-79" Source="C:\Users\Dino\Documents\Visual Studio 2013\Projects\Kinect Audio\Kinect Audio\audio\jedan.wav" Volume="1" LoadedBehavior="Manual"/>
+            <MediaElement x:Name="two" HorizontalAlignment="Left" Height="51" VerticalAlignment="Top" Width="61" Margin="122,508,0,-79" Source="C:\Users\Dino\Documents\Visual Studio 2013\Projects\Kinect Audio\Kinect Audio\audio\dva.wav" Volume="1" LoadedBehavior="Manual"/>
+            <MediaElement x:Name="three" HorizontalAlignment="Left" Height="51" VerticalAlignment="Top" Width="61" Margin="122,508,0,-79" Source="C:\Users\Dino\Documents\Visual Studio 2013\Projects\Kinect Audio\Kinect Audio\audio\tri.wav" Volume="1" LoadedBehavior="Manual"/>
+            <MediaElement x:Name="four" HorizontalAlignment="Left" Height="51" VerticalAlignment="Top" Width="61" Margin="122,508,0,-79" Source="C:\Users\Dino\Documents\Visual Studio 2013\Projects\Kinect Audio\Kinect Audio\audio\cetiri.wav" Volume="1" LoadedBehavior="Manual"/>
+            <MediaElement x:Name="five" HorizontalAlignment="Left" Height="51" VerticalAlignment="Top" Width="61" Margin="122,508,0,-79" Source="C:\Users\Dino\Documents\Visual Studio 2013\Projects\Kinect Audio\Kinect Audio\audio\pet.wav" Volume="1" LoadedBehavior="Manual"/>
+            <MediaElement x:Name="six" HorizontalAlignment="Left" Height="51" VerticalAlignment="Top" Width="61" Margin="122,508,0,-79" Source="C:\Users\Dino\Documents\Visual Studio 2013\Projects\Kinect Audio\Kinect Audio\audio\sest.wav" Volume="1" LoadedBehavior="Manual"/>
+            <MediaElement x:Name="seven" HorizontalAlignment="Left" Height="51" VerticalAlignment="Top" Width="61" Margin="122,508,0,-79" Source="C:\Users\Dino\Documents\Visual Studio 2013\Projects\Kinect Audio\Kinect Audio\audio\sedam.wav" Volume="1" LoadedBehavior="Manual"/>
+            <MediaElement x:Name="eight" HorizontalAlignment="Left" Height="51" VerticalAlignment="Top" Width="61" Margin="122,508,0,-79" Source="C:\Users\Dino\Documents\Visual Studio 2013\Projects\Kinect Audio\Kinect Audio\audio\osam.wav" Volume="1" LoadedBehavior="Manual"/>
+            <MediaElement x:Name="backgroundMusic1" HorizontalAlignment="Left" Height="51" VerticalAlignment="Top" Width="61" Margin="122,508,0,-79" Source="C:\Users\Dino\Documents\Visual Studio 2013\Projects\Kinect Audio\Kinect Audio\audio\pozadina1.mp3" Volume="1" LoadedBehavior="Manual"/>
+            <MediaElement x:Name="backgroundMusic2" HorizontalAlignment="Left" Height="51" VerticalAlignment="Top" Width="61" Margin="122,508,0,-79" Source="C:\Users\Dino\Documents\Visual Studio 2013\Projects\Kinect Audio\Kinect Audio\audio\pozadina2.mp3" Volume="1" LoadedBehavior="Manual"/>
+            <MediaElement x:Name="backgroundMusic3" HorizontalAlignment="Left" Height="51" VerticalAlignment="Top" Width="61" Margin="122,508,0,-79" Source="C:\Users\Dino\Documents\Visual Studio 2013\Projects\Kinect Audio\Kinect Audio\audio\pozadina3.mp3" Volume="1" LoadedBehavior="Manual"/>
+        </Grid>
+
+    </Grid>
+</Window>
